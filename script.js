@@ -1,6 +1,7 @@
 const loginForm = document.getElementById('login-form');
 const dashboard = document.getElementById('dashboard');
 const logoutButton = document.getElementById('logout-button');
+const resetPassword = document.getElementById('passwordRecovery-link')
 
 loginForm.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -20,6 +21,10 @@ loginForm.addEventListener('submit', function (event) {
 logoutButton.addEventListener('click', function () {
     loginForm.style.display = 'block';
     dashboard.style.display = 'none';
+});
+
+resetPassword.addEventListener('click', () => {
+    window.location.href = 'passwordRecovery.html';
 });
 
 const newsBanners = document.querySelectorAll('.news-banner');
