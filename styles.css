@@ -17,13 +17,25 @@ body {
     text-align: center;
 }
 
+.login-containerA {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 75px 70px;
+    text-align: center;
+}
+
 h1 {
     position: absolute;
-    bottom: 620px;
-    right: 500px;
+    bottom: 600px;
+    right: 435px;
     color: rgb(17, 147, 202);
     font-size: 30px;
     font-weight: 800;
+}
+
+h2 {
+    color: red;
 }
 
 form {
@@ -40,8 +52,7 @@ form {
     color: black;
 }
 
-input,
-button {
+input {
     position: relative;
     bottom: 45px;
     padding: 10px;
@@ -54,13 +65,28 @@ button {
     text-align: center;
 }
 
-button {
+.submitButton {
     position: relative;
     bottom: 15px;
     margin: auto;
     padding: 10px;
     width: 200px;
     background-color: rgb(97, 23, 97);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.createButton {
+
+    position: absolute;
+    bottom: 300px;
+    right: 240px;
+    margin: auto;
+    padding: 5px;
+    width: 200px;
+    background-color: rgb(66, 74, 228);
     color: white;
     border: none;
     cursor: pointer;
@@ -77,6 +103,7 @@ button {
     font-weight: bolder;
     font-size: 22px;
 }
+
 
 a {
     position: relative;
