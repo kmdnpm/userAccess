@@ -19,9 +19,9 @@ body {
 
 h1 {
     position: absolute;
-    bottom: 650px;
-    right: 650px;
-    color: rgb(115, 26, 115);
+    bottom: 620px;
+    right: 500px;
+    color: rgb(17, 147, 202);
     font-size: 30px;
     font-weight: 800;
 }
@@ -65,6 +65,12 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 15px;
+}
+
+.appName {
+    font-family: segio 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 25);
+    font-style: oblique;
 }
 
 .bolded {
