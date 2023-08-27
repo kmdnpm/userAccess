@@ -69,9 +69,9 @@ form {
 
 ::placeholder {
     position: relative;
-    bottom: 15px;
-    font-weight: bold;
-    font-size: 10px;
+    bottom: 10px;
+    font-weight: lighter;
+    font-size: 15px;
     text-align: left;
     color: black;
 }
@@ -89,9 +89,10 @@ input {
     text-align: center;
 }
 
-.submitButton {
+.navigation-button {
     position: relative;
-    bottom: 15px;
+    bottom: 27px;
+    right: 0px;
     margin: auto;
     padding: 10px;
     width: 200px;
@@ -116,21 +117,23 @@ input {
     border-radius: 15px;
 }
 
-.createButton {
+.navigation-button2 {
 
     position: absolute;
     bottom: 300px;
-    right: 280px;
+    right: 210px;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 5px;
-    width: 180px;
+    width: 230px;
     background-color: rgb(66, 74, 228);
-    color: rgb(208, 24, 24);
+    color: white;
     border: 2px solid blue;
     cursor: pointer;
     border-radius: 15px;
     text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 
@@ -150,15 +153,20 @@ input {
 
 .bolded2 {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1px;
     color: white;
 }
 
 a {
-    position: relative;
-    bottom: 5px;
+    position: absolute;
+    bottom: 360px;
+    right: 420px;
     color: black;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bolder;
+}
+
+#newAcc-link {
+    color: white;
 }

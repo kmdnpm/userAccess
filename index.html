@@ -11,18 +11,26 @@
 <body>
     <h1>Welcome to <span class="appName">WHERL!</span></h1>
     <div class="login-container">
+
         <form>
             <input type="text" placeholder="Email">
             <input type="password" placeholder="Password">
-            <button type="submit" class="submitButton"><span class="bolded">Log In</span></button>
-            <a href="passwordRecovery.html" id="passwordRecovery-link">Forgot Password?</a>
-            <button type="create" class="createButton">
-                <a href="signUP.html" id="createAccount-link">
-                    <span class="bolded2">Create a new account</span>
-                </a>
-            </button>
         </form>
+        <button class="navigation-button" data-next-page="dashboard.html">
+            <span class="bolded">
+                Log In
+            </span>
+        </button>
+
+        <a href="passwordRecovery.html" id="pwdRec-link">Forgot Password?</a>
+
+        <button class="navigation-button2" data-next-page="signUP.html">
+            Create a new account
+        </button>
+
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
