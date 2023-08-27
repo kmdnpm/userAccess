@@ -17,25 +17,49 @@ body {
     text-align: center;
 }
 
-.login-containerA {
+.login-container2 {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
-    padding: 75px 70px;
+    padding: 75px 50px;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.login-container3 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 75px 50px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 h1 {
     position: absolute;
     bottom: 600px;
-    right: 435px;
+    right: 500px;
     color: rgb(17, 147, 202);
     font-size: 30px;
     font-weight: 800;
 }
 
 h2 {
-    color: red;
+    position: absolute;
+    bottom: 500px;
+    right: 430px;
+    color: purple;
+    font-weight: 600;
+
+}
+
+h3 {
+    position: absolute;
+    bottom: 500px;
+    right: 430px;
+    top: 100px;
+    color: purple;
+    font-weight: 800;
 }
 
 form {
@@ -78,20 +102,38 @@ input {
     border-radius: 15px;
 }
 
-.createButton {
 
-    position: absolute;
-    bottom: 300px;
-    right: 240px;
+.continueButton {
+    position: relative;
+    bottom: 15px;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     width: 200px;
-    background-color: rgb(66, 74, 228);
+    background-color: rgb(97, 23, 97);
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 15px;
 }
+
+.createButton {
+
+    position: absolute;
+    bottom: 300px;
+    right: 280px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 180px;
+    background-color: rgb(66, 74, 228);
+    color: rgb(208, 24, 24);
+    border: 2px solid blue;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
 
 .appName {
     font-family: segio 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,10 +142,17 @@ input {
 }
 
 .bolded {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
+    color: white;
+
 }
 
+.bolded2 {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
 
 a {
     position: relative;
