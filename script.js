@@ -35,6 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     const buttons = document.querySelectorAll(".navigation-button3");
+
+//     buttons.forEach(function (button) {
+//         button.addEventListener("click", function () {
+//             const nextPage = this.getAttribute("data-next-page");
+//             window.location.href = nextPage;
+//         });
+//     });
+// });
+
 verify.addEventListener('click', () => {
     window.location.href = 'verificationLink.html';
 });

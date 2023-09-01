@@ -35,6 +35,56 @@ body {
     padding-bottom: 30px;
 }
 
+.float-parent-element {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10rem 14rem;
+    border-radius: 60px;
+    align-items: center;
+    width: 50%;
+}
+
+.organizer {
+    display: flex;
+    justify-content;
+    align-items: center;
+    background-color: aqua;
+}
+
+.customer {
+    display: flex;
+    justify-content;
+    align-items: center;
+    background-color: aqua;
+}
+
+
+.org {
+
+    text-align: center;
+
+}
+
+.cust {
+
+    text-align: center;
+}
+
+/* a,
+#Cdash {
+    position: relative;
+    display: inline;
+    right: 600px;
+}
+
+a,
+#Odash {
+    position: relative;
+    display: inline;
+}  */
+
 h1 {
     position: absolute;
     bottom: 600px;
@@ -136,6 +186,20 @@ input {
     font-weight: bolder;
 }
 
+.navigation-button3 {
+    position: relative;
+    bottom: 27px;
+    right: 0px;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(97, 23, 97);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
 
 
 .appName {
@@ -157,7 +221,8 @@ input {
     color: white;
 }
 
-a {
+a,
+#pwdRec-link {
     position: absolute;
     bottom: 360px;
     right: 420px;
