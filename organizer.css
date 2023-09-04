@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.topdog {
+    display: flex;
+    flex-direction: column;
+    /* or row, depending on your layout */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    min-height: 100%;
+    /* Make the flex container at least 100% viewport height */
+    background-color: #f0f0f0;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: center;
+    /* border: 30px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 4rem 27rem;
+    border-radius: 60px;
+    align-items: center;
+    width: 50%;
+    flex-flow: row;
+    max-width: 800px; */
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.sales-container {
+    flex: auto;
+    text-align: center;
+    background-color: rgb(65, 65, 221);
+    padding: 18rem 15rem;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weighT: bold;
+}
+
+.tickets-container {
+    flex: auto;
+    text-align: center;
+    background-color: rgb(121, 22, 22);
+    padding: 18rem 15rem;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weighT: bold;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {}

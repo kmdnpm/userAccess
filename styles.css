@@ -1,3 +1,5 @@
+@import "organizer.css";
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,10 +12,11 @@ body {
 }
 
 .login-container {
+    position: relative;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
-    padding: 75px 70px;
+    padding: 120px 80px;
     text-align: center;
 }
 
@@ -35,63 +38,66 @@ body {
     padding-bottom: 30px;
 }
 
+
 .float-parent-element {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    margin: auto;
-    padding: 10rem 14rem;
+    justify-content: center;
+    border: 30px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 4rem 27rem;
     border-radius: 60px;
     align-items: center;
     width: 50%;
     flex-flow: row;
+    max-width: 800px;
 }
 
 .organizer {
     flex: auto;
     text-align: center;
-    background-color: aqua;
-    padding: 9rem 7rem;
+    background-color: rgb(65, 65, 221);
+    padding: 18rem 15rem;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weighT: bold;
+
+
 }
 
 .customer {
     flex: auto;
     text-align: center;
-    background-color: red;
-    padding: 9rem 7rem;
+    background-color: rgb(121, 22, 22);
+    padding: 18rem 15rem;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weighT: bold;
 }
 
 
 .org {
 
     text-align: center;
+    color: white;
 
 }
 
 .cust {
 
     text-align: center;
+    color: white;
 }
 
-/* a,
-#Cdash {
-    position: relative;
-    display: inline;
-    right: 600px;
+a {
+    text-decoration: none;
 }
-
-a,
-#Odash {
-    position: relative;
-    display: inline;
-}  */
 
 h1 {
     position: absolute;
-    bottom: 600px;
-    right: 500px;
+    bottom: 300px;
+    right: 300px;
     color: rgb(17, 147, 202);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
 }
 
@@ -141,23 +147,9 @@ input {
 }
 
 .navigation-button {
-    position: relative;
-    bottom: 27px;
-    right: 0px;
-    margin: auto;
-    padding: 10px;
-    width: 200px;
-    background-color: rgb(97, 23, 97);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 15px;
-}
-
-
-.continueButton {
-    position: relative;
-    bottom: 15px;
+    position: absolute;
+    bottom: 110px;
+    right: 180px;
     margin: auto;
     padding: 10px;
     width: 200px;
@@ -169,10 +161,9 @@ input {
 }
 
 .navigation-button2 {
-
     position: absolute;
-    bottom: 300px;
-    right: 210px;
+    bottom: 20px;
+    right: 20px;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -201,6 +192,18 @@ input {
     border-radius: 15px;
 }
 
+.continueButton {
+    position: relative;
+    bottom: 15px;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(97, 23, 97);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
 
 
 .appName {
@@ -225,8 +228,8 @@ input {
 
 #pwdRec-link {
     position: absolute;
-    bottom: 360px;
-    right: 420px;
+    bottom: 86px;
+    right: 220px;
     color: black;
     text-decoration: none;
     font-size: 12px;
