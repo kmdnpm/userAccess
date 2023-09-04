@@ -10,6 +10,8 @@ body {
     height: 100%;
 }
 
+/*creating a flex container that occupies the entire viewpoint*/
+
 .topdog {
     display: flex;
     flex-direction: column;
@@ -62,11 +64,30 @@ body {
     font-weighT: bold;
 }
 
-.navi {
-    display: flex;
+.navflex {
+    flex: auto;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-self: flex-end;
+    /*aligns flex box to the right end of the cross-axis*/
+    background-color: rgb(210, 203, 203);
 }
 
-.navbar {}
+
+li {
+    display: inline;
+    float: right;
+
+}
+
+ul#navbar li a {
+
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 16px;
+    padding-right: 40px;
+    text-decoration: none;
+
+
+}
