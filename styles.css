@@ -44,20 +44,21 @@ body {
     border-radius: 60px;
     align-items: center;
     width: 50%;
+    flex-flow: row;
 }
 
 .organizer {
-    display: flex;
-    justify-content;
-    align-items: center;
+    flex: auto;
+    text-align: center;
     background-color: aqua;
+    padding: 9rem 7rem;
 }
 
 .customer {
-    display: flex;
-    justify-content;
-    align-items: center;
-    background-color: aqua;
+    flex: auto;
+    text-align: center;
+    background-color: red;
+    padding: 9rem 7rem;
 }
 
 
@@ -221,7 +222,7 @@ input {
     color: white;
 }
 
-a,
+
 #pwdRec-link {
     position: absolute;
     bottom: 360px;
